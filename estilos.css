@@ -1,0 +1,38 @@
+body {
+  background-image: url();
+  background-size: cover;
+  margin: 8rem;
+  margin-top: 1rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.enviar {
+  background-color: #033fff;
+  font-size: 1.5rem;
+}
+
+h1 {
+  background-color: #f36363;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  background-color: #ffe867;
+}
+
+label {
+  font-size: 3rem;
+  color: #ff0000;
+
+}
+
+#nombre1{
+  background-color: #ccf0c3;
+}
+#apellido1{
+  background-color: #ccf0c3;
+}
+#foto1{
+  background-color: #ccf0c3;
+}
