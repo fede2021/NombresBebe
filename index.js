@@ -14,6 +14,21 @@ app.use(express.static('public'));
 //Sección de rutas
 app.get("/",function(req,res){
 res.sendFile(__dirname+"/index.html");
+
+app.post("/",function(req,res){
+  //Recojo los valores que envían dl Formulario
+console.log(req.body);
+  var sexo=(req.body.sexo);
+  var apellidoPaterno=(req.body.apadre);
+  var apellidoMaterno=(req.body.amadre);
+
+//Declaro 2 arrays de nombres
+var nombresNene=["Andrés","Julián","Pelayo","Martín","Rodrigo"];
+var nombresNena=["Jimena","Sandra","Andrea","Andrea","Petra","Lucía"];
+
+//Escogemos aleatoriamente un nombre
+
+});
 });
 
 
